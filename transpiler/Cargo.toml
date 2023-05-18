@@ -17,7 +17,8 @@ categories = ["development-tools::build-utils"]
 
 [dependencies]
 # deno_ast = { version = "0.15.0", features = ["minifier", "module_specifier", "transpiling"] }
-deno_ast = { version = "0.17.0", features = ["bundler", "transpiling"] }
+#deno_ast = { version = "0.17.0", features = ["bundler", "transpiling"] }
+deno_ast = { version = "0.26.0", features = ["bundler", "transpiling"] }
 deno_core = "0.147.0"
 swc_ecma_minifier = "0.136.1"
 
