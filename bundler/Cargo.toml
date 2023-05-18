@@ -20,8 +20,9 @@ askama = "0.11.1"
 base64 = "0.13.0"
 #deno_ast = { version = "0.17.0", features = ["bundler"] }
 deno_ast = { version = "0.26.0", features = ["bundler"] }
-deno_core = "0.147.0"
-deno_graph = "0.30.0"
+deno_core = "0.186.0"
+#deno_graph = "0.30.0"
+deno_graph = "0.48.1"
 derive_builder = "0.11.2"
 futures = "0.3.23"
 serde = { version = "1.0.143", features = ["derive"] }
@@ -32,5 +33,5 @@ deno-utils = { version = "0.7.0", path = "../utils", features = ["bundle", "tran
 
 
 [dev-dependencies]
-tokio = { version = "1.20.1", features = ["full"] }
+tokio = { version = "1", features = ["full"] }
 tracing-subscriber = "0.3.15"
